@@ -1,0 +1,33 @@
+.footer {
+  background-color: black;
+  color: white;
+}
+.footer_logo {
+  padding-top: 3%;
+  padding-left: 5%;
+}
+.app_description {
+  padding-left: 5%;
+  padding-bottom: 3%;
+  width: 40%;
+  font-family: Poppins;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 37.94px;
+  line-height: 158%;
+  text-align: Left;
+  vertical-align: Top;
+  letter-spacing: 0.68px;
+}
+.copyright {
+  padding-left: 5%;
+  height: 4rem;
+  position: center;
+  background-color: white;
+  color: black;
+  font-family: Poppins;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 37.94px;
+  line-height: 158%;
+}

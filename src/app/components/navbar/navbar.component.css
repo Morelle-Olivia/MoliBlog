@@ -1,0 +1,13 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.navbar {
+  font-family: poppins;
+}
+
+.toolbar_styling {
+  font-family: poppins;
+  margin-left: 5%;
+  margin-right: 2%;
+}
