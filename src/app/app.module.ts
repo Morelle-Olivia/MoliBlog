@@ -15,17 +15,21 @@ import {MatListModule} from "@angular/material/list";
 import {MatCardModule} from "@angular/material/card";
 import {MatGridListModule} from "@angular/material/grid-list";
 import { FooterComponent } from './components/footer/footer.component';
+import { MyBlogsComponent } from './pages/my-blogs/my-blogs.component';
+import {RouterModule} from "@angular/router";
 
 @NgModule({
   declarations: [
     AppComponent,
     LandingPageComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    MyBlogsComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    RouterModule,
     MatSliderModule,
     MatIconModule,
     MatToolbarModule,
