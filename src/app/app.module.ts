@@ -17,6 +17,10 @@ import {MatGridListModule} from "@angular/material/grid-list";
 import { FooterComponent } from './components/footer/footer.component';
 import { MyBlogsComponent } from './pages/my-blogs/my-blogs.component';
 import {RouterModule} from "@angular/router";
+import { AboutMeComponent } from './pages/about-me/about-me.component';
+import { ConnectComponent } from './pages/connect/connect.component';
+import {MatFormFieldModule} from "@angular/material/form-field";
+import {ReactiveFormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -24,7 +28,9 @@ import {RouterModule} from "@angular/router";
     LandingPageComponent,
     NavbarComponent,
     FooterComponent,
-    MyBlogsComponent
+    MyBlogsComponent,
+    AboutMeComponent,
+    ConnectComponent
   ],
   imports: [
     BrowserModule,
@@ -38,6 +44,8 @@ import {RouterModule} from "@angular/router";
     MatListModule,
     MatCardModule,
     MatGridListModule,
+    MatFormFieldModule,
+    // ReactiveFormsModule,
     BrowserAnimationsModule,
   ],
   providers: [],

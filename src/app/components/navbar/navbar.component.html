@@ -3,7 +3,9 @@
     <!--    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">-->
     <!--      <mat-icon>menu</mat-icon>-->
     <!--    </button>-->
-    <span>My App</span>
+    <span >
+      <img style="width: 15%; height: 5%" src="/assets/images/blog-logo.jpg">
+    </span>
     <span class="example-spacer"></span>
     <button mat-icon-button class="navbar">
       <a [routerLink]="['/web/home']">Home</a>
@@ -12,10 +14,10 @@
       <a [routerLink]="['/web/my-blogs']">My Blogs</a>
     </button>
     <button mat-icon-button class="toolbar_styling" aria-label="Example icon-button with share icon">
-      <a>About Me</a>
+      <a [routerLink]="['/web/about-me']">About Me</a>
     </button>
     <button mat-icon-button class="toolbar_styling" aria-label="Example icon-button with share icon">
-      <a>Connect</a>
+      <a [routerLink]="['/web/connect']">Connect</a>
     </button>
   </mat-toolbar>
 </p>
