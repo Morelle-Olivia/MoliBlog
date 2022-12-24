@@ -7,6 +7,10 @@ import {ConnectComponent} from "./pages/connect/connect.component";
 
 const routes: Routes = [
   {
+    path: '',
+    component: LandingPageComponent,
+  },
+  {
     path: 'web/home',
     component: LandingPageComponent,
   },

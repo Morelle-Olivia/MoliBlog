@@ -69,7 +69,8 @@
   font-weight: 500;
 }
 .category_grid {
-  height: 150%;
+  font-family: poppins;
+  /*height: 10%;*/
 }
 .category_card_content {
   font-family: poppins;
@@ -83,5 +84,5 @@
 }
 .category_post_pic {
   height: 20rem;
-  width: 70%;
+  /*width: 70%;*/
 }

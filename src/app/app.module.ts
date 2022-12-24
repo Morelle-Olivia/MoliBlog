@@ -21,6 +21,7 @@ import { AboutMeComponent } from './pages/about-me/about-me.component';
 import { ConnectComponent } from './pages/connect/connect.component';
 import {MatFormFieldModule} from "@angular/material/form-field";
 import {ReactiveFormsModule} from "@angular/forms";
+import {MatInputModule} from "@angular/material/input";
 
 @NgModule({
   declarations: [
@@ -45,8 +46,9 @@ import {ReactiveFormsModule} from "@angular/forms";
     MatCardModule,
     MatGridListModule,
     MatFormFieldModule,
-    // ReactiveFormsModule,
+    ReactiveFormsModule,
     BrowserAnimationsModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
