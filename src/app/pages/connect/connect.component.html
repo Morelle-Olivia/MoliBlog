@@ -1,0 +1,16 @@
+<app-navbar></app-navbar>
+<div class="connect_page">
+  <h1>Connect</h1>
+  <div class="example-container">
+    <mat-form-field appearance="fill">
+      <mat-label>Enter your email</mat-label>
+      <input matInput placeholder="pat@example.com" [formControl]="email" required>
+      <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+    </mat-form-field>
+  </div>
+  <div>
+
+  </div>
+</div>
+
+<!--<app-footer></app-footer>-->
